@@ -9,8 +9,8 @@ class Student
     STUDENTS << self
   end
 
-  def self.all 
-    STUDENTS 
+  def self.all
+    STUDENTS
   end 
 
 end
