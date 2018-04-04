@@ -1,16 +1,16 @@
-class Course 
-  attr_accessor :name, :topic 
+class Course
+  attr_accessor :name, :topic
 
   COURSES = []
 
   def initialize(args)
     @name = args[:name]
     @topic = args[:topic]
-    COURSES << self 
-  end 
+    COURSES << self
+  end
 
-  def self.all 
-    COURSES 
-  end 
+  def self.all
+    COURSES
+  end
   
-end 
+end
